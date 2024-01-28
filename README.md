@@ -2,9 +2,9 @@
 <img src="./assets/logo.svg" alt="GlotLID" width="30%" />
 </p>
 <p align="center">
-<a href="https://huggingface.co/anonmsr/girt-t5-base"><img alt="HuggingFace Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-8A2BE2"></a>
-<a href="https://huggingface.co/spaces/anonmsr/girt-space"><img alt="HuggingFace Demo" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space (Demo)-orange"></a>
-<a href="https://huggingface.co/datasets/anonmsr/girt-instruct"><img alt="HuggingFace Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue"></a>
+<a href="https://huggingface.co/nafisehNik/girt-t5-base"><img alt="HuggingFace Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-8A2BE2"></a>
+<a href="https://huggingface.co/spaces/nafisehNik/girt-space"><img alt="HuggingFace Demo" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space (Demo)-orange"></a>
+<a href="https://huggingface.co/datasets/nafisehNik/girt-instruct"><img alt="HuggingFace Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue"></a>
 </p>
 
 ## TL;DR
@@ -14,9 +14,9 @@ instructions regarding the structure and necessary fields.
 
 ## Links
 
-- **Model:** https://huggingface.co/anonmsr/girt-t5-base
-- **Dataset:** https://huggingface.co/datasets/anonmsr/girt-instruct
-- **Space:** https://huggingface.co/spaces/anonmsr/girt-space
+- **Model:** https://huggingface.co/nafisehNik/girt-t5-base
+- **Dataset:** https://huggingface.co/datasets/nafisehNik/girt-instruct
+- **Space:** https://huggingface.co/spaces/nafisehNik/girt-space
 
 
 ## How to load model (local)
@@ -25,8 +25,8 @@ instructions regarding the structure and necessary fields.
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 # load model and tokenizer
-model = AutoModelForSeq2SeqLM.from_pretrained('anonmsr/girt-t5-base')
-tokenizer = AutoTokenizer.from_pretrained('anonmsr/girt-t5-base')
+model = AutoModelForSeq2SeqLM.from_pretrained('nafisehNik/girt-t5-base')
+tokenizer = AutoTokenizer.from_pretrained('nafisehNik/girt-t5-base')
 
 # Ensure that the model is on the GPU for cpu use 'cpu' instead of 'cuda'
 model = model.to('cuda')
@@ -83,7 +83,7 @@ We have 4 different types in GIRT-Instruct. These types include:
 
 ```python
 from datasets import load_dataset
-dataset = load_dataset('anonmsr/girt-instruct', split='train')
+dataset = load_dataset('nafisehNik/girt-instruct', split='train')
 print(dataset['train'][0]) # First row of train
 ```
 
@@ -94,7 +94,7 @@ We also provide the [code](summary_gen.ipynb) and prompts used for the Zephyr mo
 
 ## UI (online)
 
-This UI is designed to interact with GIRT-Model, it is also accessible in huggingface: https://huggingface.co/spaces/anonmsr/girt-space
+This UI is designed to interact with GIRT-Model, it is also accessible in huggingface: https://huggingface.co/spaces/nafisehNik/girt-space
 1. IRT input examples
 2. metadata fields of IRT inputs
 3. summary field of IRT inputs
