@@ -9,7 +9,7 @@
 
 ## TL;DR
 
-The repository introduces **GIRT-Model**, an open-source assistant language model that automatically generates IRTs. It creates IRTs based on the developer’s
+The repository introduces **GIRT-Model**, an open-source assistant language model that automatically generates **Issue Report Templates (IRTs)** or **Issue Templates**. It creates IRTs based on the developer’s
 instructions regarding the structure and necessary fields.
 
 ## Links
