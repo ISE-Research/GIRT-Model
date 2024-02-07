@@ -106,5 +106,20 @@ This UI is designed to interact with GIRT-Model, it is also accessible in huggin
 <img src="./assets/ui.png" alt="GlotLID" width="50%" />
 </p>
 
+## Citation
+This work is accepted for publication in [MSR 2024](https://2024.msrconf.org/track/msr-2024-technical-papers) conference, under the title of "GIRT-Model: Automated Generation of Issue Report Templates".
+
+```python
+@inproceedings{nikeghbal2024girt-model,
+  title={GIRT-Model: Automated Generation of Issue Report Templates},
+  booktitle={21st IEEE/ACM International Conference on Mining Software Repositories (MSR)},
+  author={Nikeghbal, Nafiseh and Kargaran, Amir Hossein and Heydarnoori, Abbas},
+  month={April},
+  year={2024},
+  publisher={IEEE/ACM},
+  address={Lisbon, Portugal},
+  url = {https://doi.org/10.1145/3643991.3644906},
+}
+```
 
 
