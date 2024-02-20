@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/logo.svg" alt="GlotLID" width="30%" />
+<img src="./assets/logo.svg" alt="GIRT" width="30%" />
 </p>
 <p align="center">
 <a href="https://huggingface.co/nafisehNik/girt-t5-base"><img alt="HuggingFace Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-8A2BE2"></a>
@@ -103,7 +103,7 @@ This UI is designed to interact with GIRT-Model, it is also accessible in huggin
 6. generated IRT
 
 <p align="center">
-<img src="./assets/ui.png" alt="GlotLID" width="50%" />
+<img src="./assets/ui.png" alt="GIRT" width="50%" />
 </p>
 
 ## Citation
